@@ -1,0 +1,162 @@
+.cars-wrapper {
+            position: relative;
+            padding-bottom: 10px;
+            /*margin: 0px;*/
+            /*border-bottom: 1px solid #ddd;*/
+            height: auto;
+            overflow: hidden;
+            font: 14px 'Open Sans', sans-serif;
+            color: #333;
+            margin-top: 10px;
+        }
+        .car-photo {
+            float: left;
+        }
+        .car-photo img {
+            width: 140px;
+        }
+        
+        .account-car-photo img {
+            width: 160px;
+        }
+        
+        .car-price-wrapper {
+            float: right;
+            padding: 20px 15px 0 15px;
+            width: 145px;
+            /*border: 1px solid #ddd;*/
+            text-align: center;
+        }
+        .car-tools-wrapper {
+            float: right;
+            padding: 20px 15px 0 15px;
+            width: 100px;
+            /*border: 1px solid #ddd;*/
+            text-align: center;
+        }
+        .car-description-wrapper {
+            position: relative;
+            overflow: hidden;
+        }
+        .car-description-content {
+            position: relative;
+            margin-top: 0;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-right: 10px;
+            line-height: 1.5em;
+            /*border: 1px solid #ddd;*/
+        }
+        .car-description-content .car-model-name {
+            display: block;
+            color: #0e4fb3;
+            padding-bottom: 5px;
+            font-size: 17px;
+            text-decoration: none;
+        }
+        .car-description-content .car-model-name:hover {
+            text-decoration: underline;
+            color: #ff6000;
+        }
+        .car-description-content .car-details {
+            color: #111;
+            font-size: 13.5px;
+        }
+        .car-description-content .car-contact {
+            font-weight: bold;
+        }
+        .car-price {
+            display: block;
+            font-weight: 100;
+            font-size: 1.3em;
+            margin-bottom: 3px;
+            text-align: right;
+            color: #cc0000;
+        }
+        .upload-date {
+            line-height: 1.0em;
+            font-size: 12px;
+            color: #aaa;
+            text-align: right;
+        }
+        .upload-time {
+            display: block;
+        }
+        a {
+    text-decoration: none !important;
+    /*color: #333;*/
+}
+
+.pagination-wrapper {
+    text-align: center;
+}
+
+#image-container {
+    border: 1px solid #ddd;
+    height: 300px;
+    display: table-cell;
+    width: 600px;
+    /*text-align: center;*/
+    vertical-align: middle;
+}
+
+.img-gal {
+    width: 100%;
+}
+.img-thumb-car {
+    padding: 2px;
+}
+
+.img-thumb-car > a > img {
+    border: 1px solid #ddd;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.gallery-container {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: rgb(145, 61, 61);
+}
+
+.slick-prev {
+   left: 3px; 
+}
+.slick-next {
+    right: 3px;
+}
+.slick-list {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.two-col-special {
+    /*border: 1px dotted blue;*/
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.two-col-special li {
+    display: inline-block;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top; /* In case multi-word categories form two lines */
+}
+.two-col-special li:before {
+    content: '\2713';
+    /*padding: 5px;*/
+    margin-right: 0px; /* you can tweak the gap */
+    color: #333;
+    background-color: white; /* in case you want a color... */
+    display: inline-block;
+}
+
+div.cars-wrapper:hover {
+    background-color: #f9f9f9;
+}

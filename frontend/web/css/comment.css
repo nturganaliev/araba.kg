@@ -1,0 +1,83 @@
+.wrapper {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .chat-wrapper {
+            position: relative;
+            padding: 10px;
+            height: auto;
+            overflow: hidden;
+            /*font: 13px 'Open Sans', sans-serif;*/
+        }
+        .user-name {
+            float: left;
+            padding: 0 10px 10px 10px;
+            width: 200px;
+            text-align: right;
+            /*border: 1px solid #ddd;*/
+            
+        }
+        .user-message {
+            position: relative;
+            overflow: hidden;
+            margin-left: -30px;
+        }
+        .message-content {
+            position: relative;
+            margin-top: 0;
+            margin-left: 30px;
+            padding: 5px;
+            line-height: 1.7em;
+            /*background: #C7EDFC;*/
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #7c7c7c;
+        }
+        .message-content-area {
+            padding: 0;
+            margin: 0;
+            max-height: 100px;
+            width: 100%;
+            line-height: 1.5em;
+            background: #f9f9f9;
+            overflow: hidden;
+            resize: none;
+            border: none;
+        }
+        .message-content .message-content-area,
+        .message-content .message-content-area:focus,
+        .message-content .message-content-area:active {
+            outline: none!important;
+        }
+
+        .message-content:after {
+            top: 3px;
+            width: 0;
+            height: 0;
+            left: -8px;
+            z-index: 2;
+            content: " ";
+            display: block !important;
+            position: absolute;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            border-right: 8px solid #ddd;
+        }
+        .sms-author {
+            display: block;
+            /*font-weight: 600;*/
+            font-size: 14px;
+            margin-bottom: 5px;
+            overflow-x: hidden;
+            width: inherit;
+            text-overflow: ellipsis;
+            color: #333333;
+        }
+        .sms-time {
+            display: block;
+            font-size: 11px;
+        }
+        .table > tbody > tr > td {
+            /*border-top: 0px;*/
+        }

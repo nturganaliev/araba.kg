@@ -1,0 +1,418 @@
+html,
+body {
+	height: 100%;
+  overflow-x: hidden;
+        
+}
+label {
+    margin-bottom: 2px;
+}
+
+.tire-after:after {
+    content: "sksks"
+}
+
+.araba {
+    /*background-color: #FFF;*/
+    color: #E91501;
+    font-family: Chau Philomene One, Verdana;
+    /*font-feature-settings: "'liga' 1";*/
+    font-kerning: auto;
+    font-style: normal;
+    font-size: 2.1em;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    text-align: left;
+    text-decoration: none;
+    /*text-transform: undefined;*/
+    word-spacing: 0;
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    padding-top: 20px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 21px;
+  padding-bottom: 0px;
+}
+
+.wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -60px;
+	padding: 0 0 60px;
+}
+
+.wrap > .container {
+	padding: 70px 15px 20px;
+}
+
+.footer {
+	height: 60px;
+	background-color: #f5f5f5;
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+.not-set {
+	color: #c55;
+	font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	padding-left: 5px;
+}
+
+a.asc:after {
+	content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+	content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+	content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+	content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+	content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+	content: "\e156";
+}
+
+.grid-view th {
+	white-space: nowrap;
+}
+
+.hint-block {
+	display: block;
+	margin-top: 5px;
+	color: #999;
+}
+
+.error-summary {
+	color: #a94442;
+	background: #fdf7f7;
+	border-left: 3px solid #eed3d7;
+	padding: 10px 20px;
+	margin: 0 0 15px 0;
+}
+
+#registration-tablist .tab-content > .tab-pane {
+	padding: 10px;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+	background-color: #f9f9f9;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #f9f9f9;
+}
+.nav-tabs > li > a {
+  border: 1px solid #ddd;
+  background-color: #E6E6E6;
+}
+
+.tab-height-custom {
+    max-height: 232px;
+}
+
+
+.tabs-x.tabs-left.tab-align-left > .tab-content {
+    
+ overflow: hidden;
+}
+
+.tabs-left > .nav-tabs > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.container {
+    min-width: 951px;
+    padding-right: 60px;
+    padding-left: 60px;
+    /*margin-top: 50px;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tabs-x.tabs-left.tab-align-left > ul.nav.nav-tabs {
+    margin-right: 0px!important;
+}
+/*.tab-content {
+    padding: 0px;
+}*/
+
+.form-control {
+  height: 30px;
+  padding: 3px 6px;
+  font-size: 14px;
+  border-radius: 0px;
+}
+
+.car_desc {
+    padding-left: 20px;
+}
+
+/*.tab-content {
+	background-color: #f9f9f9;
+}*/
+
+/*#registration-tablist ul > .li:active {
+}
+
+#registration-tablist .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	background-color: #f9f9f9;
+}*/
+
+.partner_img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, .col-xs-13, .col-sm-13, .col-md-13, .col-lg-13, .col-xs-14, .col-sm-14, .col-md-14, .col-lg-14, .col-xs-15, .col-sm-15, .col-md-15, .col-lg-15, .col-xs-16, .col-sm-16, .col-md-16, .col-lg-16, .col-xs-17, .col-sm-17, .col-md-17, .col-lg-17, .col-xs-18, .col-sm-18, .col-md-18, .col-lg-18, .col-xs-19, .col-sm-19, .col-md-19, .col-lg-19, .col-xs-20, .col-sm-20, .col-md-20, .col-lg-20, .col-xs-21, .col-sm-21, .col-md-21, .col-lg-21, .col-xs-22, .col-sm-22, .col-md-22, .col-lg-22, .col-xs-23, .col-sm-23, .col-md-23, .col-lg-23, .col-xs-24, .col-sm-24, .col-md-24, .col-lg-24 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.tabs-left > .nav-tabs > li, .tabs-right > .nav-tabs > li > a {
+  background-color: #f3f3f3;
+}
+.tabs-above > .nav-tabs > li > a, .tabs-right > .nav-tabs > li > a {
+  background-color: #E6E6E6;
+}
+/*
+.tabs-above > .nav-tabs > li, .tabs-right > .nav-tabs > li > .active {
+  
+}*/
+
+.tabs-above > .nav-tabs > li.active > a, .tabs-left > .nav-tabs > li.active > a  {
+    background-color: #f9f9f9;
+}
+.tabs-above > .nav-tabs > .active > a, .tabs-above > .nav-tabs > .active > a:hover, .tabs-above > .nav-tabs > .active > a:focus {
+  border-color: #ddd #ddd #f9f9f9 #ddd;
+}
+
+.btn-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+.tabs-left.tab-bordered .tab-content {
+  background-color: #fff;
+}
+.tabs-above.tab-bordered .tab-content, .tabs-left.tab-bordered .tab-content  {
+  background-color: #f9f9f9;
+  padding: 1px;
+}
+
+.tabs-left > .nav-tabs {
+    width: 60px !important;
+}
+
+.tabs-krajee.tabs-left .tab-content {
+    margin-left: 59px !important;
+    height: 230px;
+}
+
+
+.tabs-left > .nav-tabs > li > a {
+  border-color: #ddd transparent #ddd #ddd;
+  border-radius: 0 0 0 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.tabs-above > .nav-tabs > li > a {
+  border-color: #ddd #ddd #ddd #ddd;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.tabs-left > .nav-tabs > li > a .search_icon {
+    height: 33px;
+    padding: 3px;
+}
+
+.tabs-left > .nav-tabs > li > a #first_search_icon {
+  /*height: 25px;
+  width: 36px;*/
+  padding: 4px 3px 4px 4px;
+}
+
+.tabs-left > .nav-tabs > li > a #second_search_icon  {
+  /*height: 25px;
+  width: 36px;*/
+  padding: 4px 3px 4px 4px;
+}
+
+.tabs-left > .nav-tabs > li > a #third_search_icon {
+  /*height: 27px;
+  width: 39px;*/
+  padding: 3px;
+}
+
+.tabs-left > .nav-tabs > li > a #fourth_search_icon {
+  /*height: 23px;
+  width: 33px;*/
+  padding: 5px 3px 5px 5px;
+}
+
+.tabs-left > .nav-tabs > li > a #fifth_search_icon {
+  /*height: 29px;
+  width: 41px;*/
+  padding: 2px 3px 2px 4px;
+}
+
+.tabs-left > .nav-tabs > li > a #sixth_search_icon {
+  /*height: 23px;
+  width: 33px;*/
+  padding: 2px 3px 2px 5px;
+}
+
+.tabs-above > .nav-tabs > li > a .search_icon {
+    height: 33px;
+    /*padding: 3px;*/
+}
+
+
+.tabs-above > .nav-tabs > li > a #auto-t_search_icon {
+  /*height: 26px;
+  width: 37px;*/
+  padding: 3px 3px 4px 3px;
+}
+
+.tabs-above > .nav-tabs > li > a #bus-t_search_icon {
+  /*height: 27px;
+  width: 38px;*/
+  padding: 3px;
+}
+
+.tabs-above > .nav-tabs > li > a #truck-t_search_icon {
+  /*height: 28px;
+  width: 40px;*/
+  padding: 3px 3px 1px 3px;
+}
+
+.tabs-above > .nav-tabs > li > a #moto-t_search_icon {
+  /*height: 28px;
+  width: 38px;*/
+  padding: 6px 3px 5px 3px;
+}
+
+.tabs-above > .nav-tabs > li > a #sq-t_search_icon {
+  /*height: 28px;
+  width: 38px;*/
+  padding: 2px 3px 2px 3px;
+}
+
+.tabs-above > .nav-tabs > li > a #rent-t_search_icon {
+  /*height: 28px;*/
+  width: 40px;
+  padding: 5px 3px 3px 3px;
+}
+
+.detailed_search {
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+#main_navbar {
+    margin-bottom: 0px;
+}
+
+.summary {
+    color: #aaa;
+}
+
+.btn-file, .fileinput-remove-button, .fileinput-upload-button{
+    height: 30px;
+}
+
+.car-view > strong {
+    font-size: 16px;
+    color: #333;
+}
+
+.login-panel {
+    background-color: #f9f9f9;
+}
+
+.user-info {
+    font-size: 13px;
+    color: #0a0a0a;
+}
+
+.adv-image-list-item {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.label-add-advertisement {
+    background-color: #4cb904;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tiree-wrapper {
+    position: relative;
+}
+.tiree {
+    position: absolute;
+    display: inline-block;
+    right: -15px;
+    top: 2px;
+    font-size: 20px;
+}
+@media all and (max-width: 767px) {
+    .tiree {
+        position: relative;
+        display: block;
+        margin-bottom: 15px;
+        right: 0;
+        top: 0;
+        font-size: 20px;
+    }
+    .tiree-after-label {
+        display: none;
+    }
+}
+
+.field-loginform-password {
+    margin-bottom: 0px;
+}

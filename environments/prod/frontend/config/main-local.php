@@ -1,0 +1,57 @@
+<?php
+
+return [
+    'modules' => [
+        'account' => [
+            'class' => 'frontend\modules\account\Account',
+        ]
+    ],
+    'as beforeRequest' => [
+        'class' => 'frontend\components\LanguageHandler',
+    ],
+    'components' => [
+        'request' => [
+            'cookieValidationKey' => 'asdfjlasjdfl;jkqwfkljslcvjkzxl;ckjvasdf,.mxckvl;kjertp;asdkfljasd',
+        ],
+        'imageCache' => [
+            'class' => 'iutbay\yii2imagecache\ImageCache',
+            'sourcePath' => '@app/../uploads/cars',
+            'sourceUrl' => '@web/../../uploads/cars',
+            'thumbsPath' => '@app/web/thumbs',
+            'thumbsUrl' => '@web/thumbs',
+            'sizes' => [
+                'thumb' => [165, 120],
+                'medium' => [450, 450],
+                'large' => [600, 600],
+            ],
+        ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'enableStrictParsing' => false,
+//            'suffix' => '.html',
+            'rules' => [
+                '' => 'site/index',
+                'logout' => 'site/logout',
+                'signup' => 'site/signup',
+                'upload' => 'site/upload',
+                'test' => 'site/test',
+                'login' => 'site/login',
+                'account/default' => 'account/car/index',
+                'account/settings' => 'account/default/settings',
+                'account/update-settings' => 'account/default/update-settings',
+                'account/update-password' => 'account/default/update-password',
+                'account/refill-balance' => 'account/default/refill-balance',
+                'car/series' => 'car/series',
+                'car' => 'car/search',
+                'car/fieldset' => 'car/fieldset',
+                'moto-type' => 'moto-type/index',
+                'moto-type/create' => 'moto-type/create',
+                'moto-type/delete' => 'moto-type/delete',
+                'moto-type/view' => 'moto-type/view',
+                'moto-type/update' => 'moto-type/update',
+                'thumbs/<path:.*>' => 'site/thumb',
+            ],
+        ],
+    ],
+];

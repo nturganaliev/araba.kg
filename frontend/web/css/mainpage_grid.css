@@ -1,0 +1,67 @@
+.newrow {
+    float: left;
+    margin: 0 0 0 0;
+    min-height: 162px;
+    overflow: hidden;
+    position: relative;
+    width: 170px;
+}
+.similar-newrow {
+    float: left;
+    margin: 0 0 0 0;
+    min-height: 162px;
+    overflow: hidden;
+    position: relative;
+    width: 150px;
+}
+.newlink img {
+    height: 117px;
+    width: auto;
+    border: 1px solid #f3f3f3;
+}
+.similar-newlink img {
+    height: 103px;
+    width: auto;
+    border: 1px solid #f3f3f3;
+}
+
+.car-photo img {
+    border: 1px solid #f3f3f3;
+}
+.someinfo {
+    bottom: 0;
+    color: #000;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 1;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.someinfo a {
+    font-family: Arial,Helvetica,sans-serif!important;
+    font-size: 12px;
+    font-weight: normal;
+    color: #06c;
+    text-decoration: none;
+}
+.someinfo a:hover,
+.someinfo a:focus {
+    color: #09f;
+    text-decoration: underline;
+}
+.someinfo .car-year {
+    float:left;
+    margin-right:5px;
+    max-width: 100px;
+    overflow: hidden;
+}
+.someinfo .car-price {
+    /*max-width: 50px;*/
+    overflow: hidden;
+    color:#bc0004;
+    font-size: 12px;
+    text-align: left;
+}
